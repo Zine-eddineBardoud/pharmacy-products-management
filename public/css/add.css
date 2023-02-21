@@ -1,0 +1,36 @@
+.container{
+    width: 40%;
+    margin: 0 auto;
+    /* background-color: #ccc; */
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-control{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.input-name{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #2B3467;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+textarea{
+    resize: vertical;
+}

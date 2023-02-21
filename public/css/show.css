@@ -1,0 +1,80 @@
+.card{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product-tumb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.product-tumb img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details{
+    padding: 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.price{
+    color: #fbb72c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.product-catagory{
+    padding-top: 20px;
+}
+.product-details h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.edit{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: #ccc;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete{
+    position: absolute;
+    margin-top: 10px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit{
+    right: 10px;
+    background-color: #fbb62c9d;
+}
+.edit:hover{
+    background-color: #fbb72c;
+}
+
+.delete{
+    border: none;
+    right: 90px;
+    background-color: #d61354ab;
+}
+.delete:hover{
+    background-color: #D61355;
+}

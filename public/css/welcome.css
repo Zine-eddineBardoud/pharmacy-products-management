@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position: relative;
+    height: 87vh;
+    background: linear-gradient(
+            to right,
+            rgb(0 0 0/ 0.5),
+            rgb(0 0 0 / 0)
+        ),
+        url(/storage/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container h1{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+}
